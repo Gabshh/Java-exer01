@@ -30,11 +30,11 @@ public class TrianguloMedida {
 				System.out.println();
 				System.out.println("Seu triângulo é Isósceles!");
 				
-			}else if (lado1 != lado2 & lado2 != lado3) {
+			}else if (lado1 != lado2 && lado2 != lado3 && lado3 != lado1) {
 				System.out.println();
 				System.out.println("Seu triângulo é Escaleno!");
 				
-			}else if (lado1 == lado2 & lado2 == lado3) {
+			}else if (lado1 == lado2 && lado2 == lado3 && lado3 == lado1) {
 				System.out.println();
 				System.out.println("Seu triângulo é Equilátero!");
 			
